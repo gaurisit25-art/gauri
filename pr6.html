@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scholarship / Seminar Registeration Form </title>
+    </head>
+    <body>
+        <h2>Scholarship / Seminar Registeration Form </h2>
+        <form>
+            <!--Personal Information-->
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label>Full Name:</label>
+                <input type="text" name="Fullname"><br><br>
+
+                <label>Phone Number:</label>
+                <input type="tel" name="phone"><br><br>
+
+                <label>Gender:</label>
+                <input type="radio" name="gender" value="male">male
+                <input type="radio" name="gender" value="female">Female
+                <input type="radio" name="gender" value="other">other
+            </fieldset>
+
+            <br>
+            <!--Academic Information-->
+            <fieldset>
+                <legend>Academic Details</legend>
+
+                <label>Course:</label>
+                <select name="course">
+                    <option value="">--Select Course--</option>
+                    <option value="btech">B.tech</option>
+                    <option value="mtech">M.tech</option>
+                    <option value="bca">B.ca</option>
+                    <option value="mca">M.ca</option>
+                    <option value="bba">BBa</option>
+                    <option value="mba">Mba</option>
+                    <option value="bsc">Bsc</option>
+                    <option value="msc">Msc</option>
+                </select>
+                <br><br>
+
+                <label>Year of study:</label>
+                <select name="year">
+                    <option>1st Year</option>
+                    <option>2nd Year</option>
+                    <option>3rd Year</option>
+                    <option>4th Year</option>
+                </select>
+            </fieldset>
+
+            <br>
+
+            <!--Seminar Preferences-->
+            <fieldset>
+                <legend>Seminar Topics Interested In</legend>
+
+                <input type="checkbox" name="topic" value="ai"> Artificial intelligence<br>
+                <input type="checkbox" name="topic" value="web"> Web Development<br>
+                <input type="checkbox" name="topic" value="cyber"> Cyber Security<br>
+                <input type="checkbox" name="topic" value="data"> Data Analytics<br>
+                <input type="checkbox" name="topic" value="electronics"> Electronics and Telecom<br>
+                <input type="checkbox" name="topic" value="ml"> Machine Learning<br>
+                <input type="checkbox" name="topic" value="it"> Information Technology<br>
+                <input type="checkbox" name="topic" value="cs"> Computer Science<br>
+                <input type="checkbox" name="topic" value="ds"> Data Science<br>
+                <input type="checkbox" name="topic" value="ds"> Data structure<br>
+            </fieldset>
+
+            <br>
+
+            <input type="submit" value="Register">
+            <input type="reset" value="Clear">
+
+        </form>
+
+    </body>
+
+</html>
+            
